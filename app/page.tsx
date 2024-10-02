@@ -1,3 +1,5 @@
+import ConfettiClick from '@/components/ConfettiClick';
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-purple-600 to-indigo-800 text-white p-4">
@@ -7,6 +9,7 @@ export default function Home() {
       <p className="text-lg md:text-xl mb-8 text-center">
         Coming Soon
       </p>
+      <ConfettiClick />
     </div>
   )
 }
